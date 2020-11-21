@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import BodyStyle from "./Body.css";
 
 function Body(props) {
-
   function convertToCelciusOrFahrenheit(temp) {
     const tempInCelcius = temp - 273.15;
     return props.isCelcius

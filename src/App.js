@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar setCity={setCity}/>
+      <Navbar setCity={setCity} />
       <Body city={city} isCelcius={isCelcius} setIsCelcius={setIsCelcius} />
       <Footer />
     </div>
